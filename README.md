@@ -78,7 +78,7 @@ $ ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=real host:=192.16
 ### Run Moveit2
 #### Caution : If you use Moveit2 function, Controller version should be required over 2.12.
 ```bash
-$ ros2 launch dsr_bringup2 dsr_bringup2_moveit2.launch.py mode:=real host:=192.168.137.100 model:=m1013
+$ ros2 launch dsr_bringup2 dsr_bringup2_moveit.launch.py mode:=real host:=192.168.137.100 model:=m1013
 ```
 
 ## 4. Nvidia Issac Sim (TBD)
